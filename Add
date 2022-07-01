@@ -1,0 +1,16 @@
+#include <stdio.h>
+int Add(int x , int y)
+{
+	int z = x + y;
+	return z;
+    }
+int main()
+{
+    int w, s, d;
+    printf("输入两个数(空格隔开):");
+    scanf("%d %d",&w,&s);
+    d = Add(w,s);
+    printf("%d+%d=%d",w, s, d);
+    return 0;
+  }
+
